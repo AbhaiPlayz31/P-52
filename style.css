@@ -1,0 +1,88 @@
+.fullOrigami{
+    display:flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    
+    margin-top: 100px;
+    
+    
+}
+
+.fullOrigami img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    
+   display:flex;
+    border-radius: 100px;
+    width : 340px;
+    background-color: white;
+    justify-content: space-between;
+    margin-left: 50px;
+    font-family: fantasy;
+    font-weight: 400;
+    text-decoration: none
+       
+}
+
+.origami:hover{
+    transform:scale(1.2);
+}
+
+body{
+    background-color:whitesmoke
+}
+
+.menu{
+display:flex;
+justify-content: space-between;
+background-color: black;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: 400;
+color:white
+
+
+}
+
+a:link{
+    color:white
+}
+
+ a:visited{
+    color:white
+}
+
+.image{
+display:flex;
+flex-direction: column;
+position:relative;
+}
+
+.image h1 {
+    position:absolute;
+    top:30%   ; 
+    left:40%;
+
+    
+}
+
+.image p {
+    position:absolute;
+    top:50%   ; 
+    left:10%;
+    
+}
+
+p,h1{
+    text-align: center;
+    color: white
+    
+}
+
+
+
+
+
